@@ -1,0 +1,24 @@
+/**
+ * This class is responsible for keeping the track of the teachers name, id salary
+ */
+package studentmanagement;
+
+public class Teacher {
+	private int id;
+	private String name;
+	private int salary;
+	private int SalarayEarned;
+	
+	/**
+	 * Creates a new Teacher Object
+	 * @param id id for the teachers id
+	 * @param name name of the teacher
+	 * @param salary salary of the teacher.
+	 */
+	public Teacher(int id, String name, int salary) {
+		this.id=id;
+		this.name=name;
+		this.salary=salary;
+		this.salaryEarned=0;
+	}
+}

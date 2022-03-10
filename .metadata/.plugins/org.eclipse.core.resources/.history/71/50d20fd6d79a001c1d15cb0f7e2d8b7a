@@ -1,0 +1,57 @@
+/**
+ * Many teachers, many students.
+ * Implements teacehrs and students
+ * Using an ArrayList.
+ */
+
+package studentmanagement;
+
+import java.util.*;
+
+public class School {
+	private List<Teacher> teachers;
+	private List<Student> students;
+	private static int totalMoneyEarned;
+	private static int totalMoneySpent;
+	
+	/**
+	 * new shcool object is created
+	 * @param teachers list of teachers in the school
+	 * @param students list of students in the school
+	 */
+	public School(List<Teacher> teachers, List<Student> students) {
+		this.teachers = teachers;
+		this.students = students;
+		totalMoneyEarned=0;
+		totalMoneySpent=0;
+	}
+	/**
+	 * @return the list fo teachers in the school
+	 */
+	public List<Teacher> getTeachers(){
+		return teachers;
+	}
+	/**
+	 * Adds a teaches to the school
+	 * @param teacher the teacehrs to be added
+	 */
+	public void addTeacher(Teacher teacher) {
+		teachers.add(teacher);
+	}
+	
+	/**
+	 * @return the list fo teh students in the schhol
+	 */
+	public List<Student> getStudents(){
+		return students;
+	}
+	
+	/**
+	 * Adds a student to the school
+	 * @param student teh student to be added.
+	 */
+	public void addStudent(Student student) {
+		students.add(student);
+	}
+
+}

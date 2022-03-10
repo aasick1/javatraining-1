@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="com.cloudfactory.training.NumberFormat"/>
+    <fullyQualifiedTypeName name="com.cloudfactory.training.Student"/>
+    <fullyQualifiedTypeName name="com.cloudfactory.training.Outer.Inner"/>
+    <fullyQualifiedTypeName name="interfaces.MyInterface"/>
+    <fullyQualifiedTypeName name="interfaces.MyOtherInterface"/>
+    <fullyQualifiedTypeName name="java.util.Date"/>
+    <fullyQualifiedTypeName name="java.text.SimpleDateFormat"/>
+</qualifiedTypeNameHistroy>

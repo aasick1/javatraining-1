@@ -1,0 +1,13 @@
+package studentmanagement;
+
+public class AbstractTest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		//MyAbstractClass myabsclass = new MyAbstractClass()
+		MySubClass mysubclass = new MySubClass();
+		mysubclass.abstractMethod();
+
+	}
+
+}

@@ -1,0 +1,11 @@
+/**
+ * This class is responsible for keeping the track of the teachers name, id salary
+ */
+package studentmanagement;
+
+public class Teacher {
+	private int id;
+	private String name;
+	private int salary;
+	private int SalarayEarned;
+}

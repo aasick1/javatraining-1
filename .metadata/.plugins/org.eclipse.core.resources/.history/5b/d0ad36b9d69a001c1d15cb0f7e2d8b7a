@@ -1,0 +1,17 @@
+/**
+ * Many teachers, many students.
+ * Implements teacehrs and students
+ * Using an ArrayList.
+ */
+
+package studentmanagement;
+
+import java.util.*;
+
+public class School {
+	private List<Teacher> teachers;
+	private List<Student> students;
+	private static int totalMoneyEarned;
+	private static int totalMoneySpent;
+
+}

@@ -1,0 +1,10 @@
+package studentmanagement;
+
+public abstract class MyAbstractProcess {
+	public void process() {
+		stepBefore();
+		action();
+		stepAfter();
+	}
+
+}

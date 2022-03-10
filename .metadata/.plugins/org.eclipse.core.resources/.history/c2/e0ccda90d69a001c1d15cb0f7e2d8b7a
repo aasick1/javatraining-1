@@ -1,0 +1,13 @@
+/**
+ * Many teachers, many students.
+ * Implements teacehrs and students
+ * Using an ArrayList.
+ */
+
+package studentmanagement;
+
+import java.util.*;
+
+public class School {
+
+}

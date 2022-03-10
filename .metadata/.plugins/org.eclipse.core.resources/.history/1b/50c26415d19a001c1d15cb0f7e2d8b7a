@@ -1,0 +1,11 @@
+package studentmanagement;
+/**
+ * 
+ * @author Asus
+ * This class is responsible for keeping the track of students 
+ * fees, names, grades & fees paid
+ *
+ */
+public class Student {
+
+}
